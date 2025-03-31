@@ -1,4 +1,20 @@
-# README for RealData Code
+# Pairwise Maximum Likelihood For Multi-Class Logistic Regression Model With Multiple Rare Classes
+
+- Dependencies
+Python == 3.7
+torch == 1.3.1
+
+- Make sure you have all the dependencies listed in `requirements.txt` installed
+- Install them using `pip install -r requirements.txt`
+
+- Simulation
+
+Simu1.1 to Simu1.3 reproduce the results of Figure 1 in the manuscipt, comparing the GMLE and PMLE methods. Simu2 replicates the results of Table 1 in the manuscipt, comparing the PMLE and SPMLE methods. Simu3 contains the code specifically designed for visualizing key data and results. Simu4 is the supplementary experiment, providing additional empirical evidence to validate our research.
+
+- RealData
+
+## Dataset: **split_data**
+Due to the anonymity requirements and the file size limitations imposed by GitHub, we can only upload the dataset after splitting and compressing it. Once the rebuttal process concludes, we will upload the dataset to Google Drive for easy access.
 
 ## RealData_0: Original Image Preprocessing
 This TikTok Screenshots (TTS) dataset contains a total of 2,559 screenshots of size 720 $\times$ 1,280 randomly taken from TikTok live streams sponsored by different Audi dealers in China. All images are stored in the directory **Images_all_8cls**, and their corresponding annotation information is recorded in the file **master_file_8cls.npy**.
