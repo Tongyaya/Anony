@@ -2,6 +2,7 @@
 
 ## Dependencies
 Python == 3.7
+
 torch == 1.3.1
 
 - Make sure you have all the dependencies listed in `requirements.txt` installed
@@ -9,7 +10,7 @@ torch == 1.3.1
 
 ## Simulation
 
-Simu1.1 to Simu1.3 reproduce the results of Figure 1 in the manuscipt, comparing the GMLE and PMLE methods. Simu2 replicates the results of Table 1 in the manuscipt, comparing the PMLE and SPMLE methods. Simu3 contains the code specifically designed for visualizing key data and results. Simu4 is the supplementary experiment, providing additional empirical evidence to validate our research.
+Simu1.1 to Simu1.3 reproduce the results of Figure 1 in the manuscript, comparing the GMLE and PMLE methods. Simu2 replicates the results of Table 1 in the manuscript, comparing the PMLE and SPMLE methods. Simu3 contains the code specifically designed for visualizing key data and results. Simu4 is the supplementary experiment, providing additional empirical evidence to validate our research.
 
 ## RealData
 
@@ -19,7 +20,7 @@ Due to the anonymity requirements and the file size limitations imposed by GitHu
 ### RealData_0: Original Image Preprocessing
 This TikTok Screenshots (TTS) dataset contains a total of 2,559 screenshots of size 720 $\times$ 1,280 randomly taken from TikTok live streams sponsored by different Audi dealers in China. All images are stored in the directory **Images_all_8cls**, and their corresponding annotation information is recorded in the file **master_file_8cls.npy**.
 
-### RealData_1: Generate Features and Corresponding Labels for Sub - images
+### RealData_1: Generate Features and Corresponding Labels for Sub-images
 - **Images_random_8cls**: This directory stores the original images of 8 classes that have been divided into training and test sets.
 - **master_file_train_8cls.npy**: Contains the training set data of 8 classes and the resized bounding box information.
 - **master_file_test_8cls.npy**: Contains the test set data of 8 classes and the resized bounding box information.
