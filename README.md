@@ -12,6 +12,8 @@ torch == 1.3.1
 
 Simu1.1 to Simu1.3 reproduce the results of Figure 1 in the manuscript, comparing the GMLE and PMLE methods. Simu2 replicates the results of Table 1 in the manuscript, comparing the PMLE and SPMLE methods. Simu3 contains the code specifically designed for visualizing key data and results. Simu4 is the supplementary experiment, providing additional empirical evidence to validate our research.
 
+The experiments were conducted on a server equipped with 12 × Intel(R) Xeon(R) Platinum 8163 CPU @ 2.50GHz.
+
 ## RealData
 
 ### Dataset: **split_data**
