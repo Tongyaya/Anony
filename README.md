@@ -16,8 +16,7 @@ The experiments were conducted on a server equipped with 12 × Intel(R) Xeon(R) 
 
 ## RealData
 
-### Dataset: **split_data**
-Due to the anonymity requirements and the file size limitations imposed by GitHub, we can only upload the dataset after splitting and compressing it. Once the rebuttal process concludes, we will upload the dataset to Google Drive for easy access.
+### Dataset: Data is availible at [Audi](https://pan.baidu.com/s/18M1h9Z5JZk8Raj4Xwxjh0g?pwd=x74g).
 
 ### RealData_0: Original Image Preprocessing
 This TikTok Screenshots (TTS) dataset contains a total of 2,559 screenshots of size 720 $\times$ 1,280 randomly taken from TikTok live streams sponsored by different Audi dealers in China. All images are stored in the directory **Images_all_8cls**, and their corresponding annotation information is recorded in the file **master_file_8cls.npy**.
